@@ -12,5 +12,5 @@ COPY docker-compose.yml ./docker-compose.yml
 # Install required Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Set the entry point for the container
+# Set the entry point for the container s
 ENTRYPOINT ["airflow"]
